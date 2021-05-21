@@ -1,5 +1,5 @@
 const moment = require('moment');
-var momentDurationFormatSetup = require("moment-duration-format");
+const momentDurationFormatSetup = require("moment-duration-format");
 
 function getAge(dateOfBirth){
     let ageInMs = moment()- moment(dateOfBirth)
